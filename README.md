@@ -1,5 +1,6 @@
 # News-Classification-using-NLP
 The purpose of this project is to design and implement a machine learning implementation that correctly predicts if a given article would be considered fake news.
+
 ABSTRACT
 The concept of Real and Fake news Classification and Detection is a domain which
 is still in the initial-development stage as compared to other projects of similar kind in
@@ -27,6 +28,8 @@ implemented on some datasets that are available on the internet. The results, wh
 the ML models were implemented on the dataset, have been very encouraging and
 can prove to be very useful if any future work is done on this project or in this
 particular domain.
+
+
 OBJECTIVE
 This project proposes the question of whether it is possible to detect fake news
 through machine learning models. Specifically, the aim of this project is to determine
@@ -46,6 +49,8 @@ will result in an accuracy score and a confusion matrix that tell us how
 well, our model fares.
 • Presents a possible solution and lays some groundwork in further study in this
 area.
+
+
 INTRODUCTION
 Let us take a look at what Fake news might be. FAKE news can be the spread of
 any sort of misinformation, whether it be through online sources, newspapers,
@@ -79,6 +84,8 @@ they be real or fake. The Classification Model is generated using the ML
 models and the word cloud is used for the classification and prediction of the
 category of news articles i.e., to classify whether they are real or fake. All of this will
 be explained properly int the implementation aspect of the project.
+
+
 METHODOLOGY
 •Detailed Description of given Dataset
 The dataset which hashas been used forfor this project has been taken from
@@ -96,7 +103,9 @@ module as some of their information such as ID, Label etc. is missing
 steps are not taken, can result in quitequite an imbalanced datasetThis
 problemblem is not only in this project butbut in tthe othersas wellas well FFor
 therectification of this error, we skip the records withwith missingdata.
-•Exploration of different ML Models
+
+
+Exploration of different ML Models
 There are several types of MachineMachine Learning Algorithms wwhich can bbe
 used for the purpose of this project. After rigorous experimentation and testing of
 different algorithms, different ML models were deployed for the classification
@@ -211,6 +220,8 @@ word “president”. Term “president” is present in the document for a tota
 of 15 times. By this logic, the Term Frequency will come out to be 15/500
 i.e., 0.03. Now we calculate the IDF for 300 reports for the given word. By
 using the formula, the IDF and TF-IDF is calculated.
+
+
 IMPLEMENTATION
 The various modules which have been described in this research paper are
 implemented in the project of Real and Fake News Classification. Different
