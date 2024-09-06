@@ -2,6 +2,8 @@
 The purpose of this project is to design and implement a machine learning implementation that correctly predicts if a given article would be considered fake news.
 
 ABSTRACT
+
+
 The concept of Real and Fake news Classification and Detection is a domain which
 is still in the initial-development stage as compared to other projects of similar kind in
 this domain.ML or Machine Learning is a useful part of this project. The purpose of
@@ -31,6 +33,8 @@ particular domain.
 
 
 OBJECTIVE
+
+
 This project proposes the question of whether it is possible to detect fake news
 through machine learning models. Specifically, the aim of this project is to determine
 the ideal model that is efficient in predicting fake news while also limiting the cost of
@@ -52,6 +56,8 @@ area.
 
 
 INTRODUCTION
+
+
 Let us take a look at what Fake news might be. FAKE news can be the spread of
 any sort of misinformation, whether it be through online sources, newspapers,
 magazines, websites etc. The most prevalent form of spreading fake news is
@@ -87,6 +93,8 @@ be explained properly int the implementation aspect of the project.
 
 
 METHODOLOGY
+
+
 •Detailed Description of given Dataset
 The dataset which hashas been used forfor this project has been taken from
 various sources, all of which are available on the internet, free of cost. The sources
@@ -106,6 +114,7 @@ therectification of this error, we skip the records withwith missingdata.
 
 
 Exploration of different ML Models
+
 There are several types of MachineMachine Learning Algorithms wwhich can bbe
 used for the purpose of this project. After rigorous experimentation and testing of
 different algorithms, different ML models were deployed for the classification
@@ -120,14 +129,18 @@ on them for the prediction of Fake news. For safety, nltk library of NLP module 
 also implemented on some of the higher performing rejected models. But
 still, the accuracy of the two mentioned models has proven to be greater as
 compared to other Machine Learning Models.
+
 •Naïve Bayes
+
 The Naïve Bayes Algorithm was implemented for the classificationclassification
 of Real andand Fake News because, as per the previous works, works, ts
 performance was quite good. But while implementing this model alongalong with
 NLP concepts, its performance was found to be lacking as compared to others.
 This can be explained by the algorithmic formula for thethe NaïveNaïve Bayes
 as wellwell as the classification report that was generated.
+
 •Support Vector Machine
+
 Support Vector Machine is another model that was implemented for the
 purpose of Real and Fake news classification. This model is very useful and has
 several merits. The rate of training of this model is relatively higher as
@@ -137,7 +150,9 @@ accurately. Simply, the accuracy of this model was lower as compared to
 others. This model has a number of advantages, such as the ability of
 tolerance to unimportant material in the dataset[13]. But still, for the purpose of
 this project work, this model has been discarded.
+
 •Passive Aggressive
+
 The Passive Aggressive model is not as much used for the Real and Fake
 News Classification, but still it is an important and upcoming model in
 various other domains, due to which this was also taken into consideration.
@@ -145,14 +160,18 @@ The implementation of this model is easier as compared to other complex
 models and has been demonstrated by several works of different authors [6].
 But still, seeing the low accuracy score of this model, it was also discarded
 from the given project work.
+
 •Logistic Regression
+
 The Logistic Regression is quite a popular model and has been used in
 various domains of project work. The accuracy score of this model was quite
 high as compared to other algorithms and the prediction was also accurate.
 The Logistic Regression Model is capable of handling large amounts of data
 which made it an essential part of the prediction and classification model.
 This model has been used in this project for the classification purpose.
+
 Re-Initialization
+
 This process is known by various names such as re-coding, re-initialization or preprocessing.
 This is the initial module of the project. The purpose of this module
 is to process or re-initialize the given data into a suitable format which can be
@@ -172,6 +191,8 @@ stop words is also used to remove the words which do not carry any meaning
 in identifying whether the given news is real or not.
 
 Machine Learning
+
+
 In the 21stcentury, in the modern era, there is a rapid boom in the generation of fake
 news, rumours etc. whether it be online or offline. Due to this rapid increase, the
 need of a device or a software to detect fake news has also increased. Machine
@@ -183,7 +204,9 @@ Machine Learning along with NLP to sort the category of news based on the
 headlines as well as the news article. This means that the classification can take
 place either by the title of the news article or the content. This module has been
 successfully implemented in the project.
+
 •Natural Language Processing
+
 The vast amount of repetitive and irrelevant features which are present in the
 given dataset often result or cause a significant negative affect on the
 accuracy of the result as well as the performance of the classifier. This
@@ -196,7 +219,9 @@ number of words in a particular part of the dataset, removal of punctuations etc
 Natural Language Toolkit or nltk of the NLP library is used in this project. The
 concept of stop-words, stemming, tokenization etc. has been implemented in this
 module and has been successfully integrated into the project
+
 •Count Vectorizer
+
 This is an important part of NLP and ML algorithms. The purpose of Count
 Vectorizer is to take a particular aspect of the dataset and then removing
 punctuation marks, conversion of the casing of the words, pre-processing of the
@@ -205,7 +230,9 @@ the implemented modules. Then, the generated vocabulary is used for the
 classification and prediction of fake news. By using the mentioned module i.e.,
 vectorizer, a table is generated which stores the number of times a word occurs in
 the dataset and where it occurs.
+
 •Term Frequency-Inverse Doc. Frequency
+
 TF-IDF is another important aspect of NLP which has been used in this
 project. It stands for Term Frequency. The IDF stands for Inverse document
 Frequency. The number of times a word occurs in the dataset is stored after the reinitialization
@@ -223,6 +250,8 @@ using the formula, the IDF and TF-IDF is calculated.
 
 
 IMPLEMENTATION
+
+
 The various modules which have been described in this research paper are
 implemented in the project of Real and Fake News Classification. Different
 tools, functionalities have been used for the implementation of this project. First
@@ -262,6 +291,8 @@ the first half of the information had a false label set and the second half had
 a true label.
 
 CONCLUSION
+
+
 The project of Real and Fake news Classification has been successfully
 deployed. Various types of Machine Learning Algorithms were used to classify
 the news into the category of Real or Fake-whether they be supervised
