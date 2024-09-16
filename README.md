@@ -1,9 +1,7 @@
 # News-Classification-using-NLP
 The purpose of this project is to design and implement a machine learning implementation that correctly predicts if a given article would be considered fake news.
 
-ABSTRACT
-
-
+### ABSTRACT
 The concept of Real and Fake news Classification and Detection is a domain which
 is still in the initial-development stage as compared to other projects of similar kind in
 this domain.ML or Machine Learning is a useful part of this project. The purpose of
@@ -32,9 +30,7 @@ can prove to be very useful if any future work is done on this project or in thi
 particular domain.
 
 
-OBJECTIVE
-
-
+### OBJECTIVE
 This project proposes the question of whether it is possible to detect fake news
 through machine learning models. Specifically, the aim of this project is to determine
 the ideal model that is efficient in predicting fake news while also limiting the cost of
@@ -55,9 +51,7 @@ well, our model fares.
 area.
 
 
-INTRODUCTION
-
-
+### INTRODUCTION
 Let us take a look at what Fake news might be. FAKE news can be the spread of
 any sort of misinformation, whether it be through online sources, newspapers,
 magazines, websites etc. The most prevalent form of spreading fake news is
@@ -92,9 +86,7 @@ category of news articles i.e., to classify whether they are real or fake. All o
 be explained properly int the implementation aspect of the project.
 
 
-METHODOLOGY
-
-
+### METHODOLOGY
 •Detailed Description of given Dataset
 The dataset which hashas been used forfor this project has been taken from
 various sources, all of which are available on the internet, free of cost. The sources
@@ -249,9 +241,7 @@ i.e., 0.03. Now we calculate the IDF for 300 reports for the given word. By
 using the formula, the IDF and TF-IDF is calculated.
 
 
-IMPLEMENTATION
-
-
+### IMPLEMENTATION
 The various modules which have been described in this research paper are
 implemented in the project of Real and Fake News Classification. Different
 tools, functionalities have been used for the implementation of this project. First
@@ -290,9 +280,7 @@ that it wouldn't produce impartial findings when applying ML techniques if
 the first half of the information had a false label set and the second half had
 a true label.
 
-CONCLUSION
-
-
+### CONCLUSION
 The project of Real and Fake news Classification has been successfully
 deployed. Various types of Machine Learning Algorithms were used to classify
 the news into the category of Real or Fake-whether they be supervised
